@@ -28,5 +28,5 @@ update-ca-certificates / update-ca-trust extract again based on platform.
 
 You can also use two helpers if you need to customize the behaviour
 
-  ca_install_path('name') # => '/usr/local/share/ca-certificates/name' (based on platform)
-  ca_update_command # => 'update-ca-trust extract' (based on platform)
+    ca_install_path('name') # => '/usr/local/share/ca-certificates/name' (based on platform)
+    ca_update_command # => 'update-ca-trust extract' (based on platform)
